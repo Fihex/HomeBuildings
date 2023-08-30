@@ -1,0 +1,7 @@
+// 1.20.1	2023-08-30T06:34:57.097028	Block States: homebuildings
+796f19ed7d8bc183e9626b9ac4a54e03da6b39a9 assets/homebuildings/blockstates/raw_rom_block.json
+b2fd7f1d0f502498c08433c42088d6f7db64912d assets/homebuildings/blockstates/rom_block.json
+879bb54b29214979adce11a042afc518ec10244d assets/homebuildings/models/block/raw_rom_block.json
+e62f26172dceae0fa2b8dd5821f69b4803bb63e5 assets/homebuildings/models/block/rom_block.json
+30df04fa146bb058c64a7d391a99dce47f3f1607 assets/homebuildings/models/item/raw_rom_block.json
+719dab65b57cea43082985bf957078c45578295b assets/homebuildings/models/item/rom_block.json

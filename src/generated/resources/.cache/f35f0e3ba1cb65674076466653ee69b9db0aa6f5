@@ -1,0 +1,4 @@
+// 1.20.1	2023-08-30T06:40:39.7388434	Tags for minecraft:block mod id homebuildings
+46716a7a7b3d65daef596cfec222670bbf2757aa data/minecraft/tags/blocks/mineable/pickaxe.json
+9a82c09f3b2a69c6583a61528406072bdc4bbccb data/minecraft/tags/blocks/needs_diamond_tool.json
+5ad1be17e662a4b1b707f6a84bcb4f6e5ce9c822 data/minecraft/tags/blocks/needs_iron_tool.json

@@ -1,0 +1,9 @@
+{
+  "item.homebuildings.rom": "Rom",
+  "item.homebuildings.raw_rom": "Raw Rom",
+
+  "block.homebuildings.rom_block": "Rom Block",
+  "block.homebuildings.raw_rom_block": "Raw Rom Block",
+
+  "creativetab.hb_tab": "Home Buildings"
+}

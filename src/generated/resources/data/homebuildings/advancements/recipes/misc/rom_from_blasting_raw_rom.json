@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_rom": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "homebuildings:raw_rom"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "homebuildings:rom_from_blasting_raw_rom"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_rom",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "homebuildings:rom_from_blasting_raw_rom"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "homebuildings:block/raw_rom_block"
+    }
+  }
+}

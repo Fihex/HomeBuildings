@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "homebuildings:raw_rom_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "homebuildings:raw_rom"
+  }
+}
