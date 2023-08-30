@@ -1,6 +1,9 @@
 package net.gai.homebuildings;
 
 import com.mojang.logging.LogUtils;
+import net.gai.homebuildings.block.ModBlocks;
+import net.gai.homebuildings.item.ModCreativeModTabs;
+import net.gai.homebuildings.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -23,11 +26,17 @@ public class HomeBuildingsMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
+
         modEventBus.addListener(this::addCreative);
-        //ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)
